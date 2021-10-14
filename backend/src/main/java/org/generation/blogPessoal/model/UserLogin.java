@@ -3,7 +3,7 @@ package org.generation.blogPessoal.model;
 public class UserLogin {
 	
 	//atributos
-	private String id;
+	private long id;
 	
 	private String nome;
 	
@@ -16,11 +16,11 @@ public class UserLogin {
 	
 	//encapsulamento
 	
-	public String getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 	
